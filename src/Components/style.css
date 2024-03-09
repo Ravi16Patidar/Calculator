@@ -1,0 +1,56 @@
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdd904;
+}
+.container{
+
+    width:270px;
+    height:365px;
+    box-shadow:0 0 20px 0px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #313642;
+    border-radius:10px;
+}
+.inputField{
+    width:96%;
+    height:70px;
+    background-color: #2a3944;
+    color:white;
+    border-radius:10px;
+    outline: none;
+/* border:none; */
+    font-size:28px;
+    font-weight: bold;
+    text-align: right;
+}
+.styleBtn{
+    width:60px;
+    height:50px;
+    margin:3px;
+    cursor: pointer;
+    background-color: #4f3cd2;
+    color: white;
+    font-weight: bold;
+    border-radius:10px;
+    font-size:15px;
+}
+.buttonsContainer{
+    margin: 0 auto;
+}
+.equalSign{
+    width:120px;
+    height:50px;
+    margin:3px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius:10px;
+    font-size:15px;
+}
